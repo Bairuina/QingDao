@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	min-width: 1200px;
+}
+.detailsTitle{
+	width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 150px;
+    color: #4DC8EC;
+    font-size: 34px;
+    position: relative;
+}
+/*.detailsTitle:after{
+	width: 300px;
+	height: 10px;
+	border: solid 2px #4DC8EC;
+	position: absolute;
+	top: 75px;
+}*/
+.detailsAll{
+	width: 80%;
+	height: auto;
+	margin: 50px auto;
+	position: relative;
+	overflow: hidden;
+}
+.detailsLeft{
+	width: 68%;
+	height: auto;
+	float: left;
+}
+.detailsImg{
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+}
+.detailsLeftTitle{
+	width: 100%;
+	height: 60px;
+	color: #4DC8EC;
+	line-height: 60px;
+	font-size: 25px;
+	font-weight: bold;
+}
+.detailsLeftText{
+	width: 100%;
+	height: auto;
+	line-height: 30px;
+	letter-spacing: 1px;
+	color: #aaa;
+}
+.detailsRight{
+	width: 28%;
+	height: auto;
+	float: right;
+	position: relative;
+}
+.detailsRight ul li{
+	list-style-type: none;
+	color: #aaa;
+	line-height: 35px;
+}
+.detailsRight ul li img{
+	width: 15px;
+	height: 15px;
+	vertical-align: sub;
+	margin-right: 10px;
+}
+.detailsRight ul{
+	margin-bottom: 50px;
+}
+.detailsRight ul li:hover{
+	color: #4DC8EC;
+	cursor: pointer;
+}
+.detaileBlock{
+	width: 100%;
+	height: auto;
+}
+.detaileBlockLi{
+	width: auto;
+	height: 26px;
+	line-height: 26px;
+	display: inline-block;
+	border: dashed 1px #4DC8EC;
+	margin: 5px;
+	padding:0 5px;
+	color: #aaa;
+	cursor: pointer;
+}
+.detaileBlockLi:hover{
+	border: solid 1px #4DC8EC;
+	background-color: #4DC8EC;
+	color: white;
+}
+.AllImages{
+	width: 100%;
+	height: 120px;
+	position: relative;
+}
+.ImgDiv{
+	width: 20%;
+	height: 96px;
+	margin: 5px 1%;
+	padding: 6px 1%;
+	border: solid 1px #aaa;
+	float: left;
+	overflow: hidden;
+}
+.ImgDiv img{
+	width: 100%;
+	height: 100%;
+	transition: 0.5s;
+}

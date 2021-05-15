@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body,html{
+	min-width: 1100px;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.Full{
+	width:auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	transition: 1s;
+}
+.FullOne{
+	width: 100%;
+	height: 20%;
+	position: relative;
+}
+.one{
+	background-image: url(../images/laoshan.jpg);
+	background-size: 100% 100%;
+}
+.two{
+	background-image: url(../images/jinshatan.jpg);
+	background-size: 100% 100%;
+}
+.three{
+	background-image: url(../images/beijiushui.jpg);
+	background-size: 100% 100%;
+}
+.four{
+	background-image: url(../images/shilin.jpg);
+	background-size: 100% 100%;
+}
+.five{
+	background-image: url(../images/chashan.jpg);
+	background-size: 100% 100%;
+}
+.fixedNav{
+	width:0;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #393D49;
+	transition: 1s;
+	overflow: hidden;
+}
+.fixedNav ul{
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+}
+.fixedNav ul a{
+	text-decoration: none;
+	color: #c1c1c1;
+}
+.fixedNav ul a li{
+	width: 100%;
+	height: 45px;
+	text-align: center;
+	list-style-type: none;
+	line-height: 45px;
+	white-space:nowrap;
+	border-left: solid 5px #393D49;
+	font-size: 20px;
+}
+.fixedNav ul a li:hover{
+	background-color: #4E5465;
+	color: white;
+	border-left: solid 5px #009688;
+}
+.navBtn{
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	top: 30px;
+	left: 30px;
+	transition: 1s;
+	background-image:url(../images/caidan.png);
+	background-size: 80% 80%;
+	background-position: 10% 10%;
+	background-repeat: no-repeat;
+}
+.Fullblack{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.3);
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: 1s;
+}
+.FullTitle{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+	font-size: 45px;
+	position: absolute;
+	letter-spacing: 5px;
+	top: 15%;
+	left: 0;
+}
+.FullTitle span{
+	font-size: 25px;
+}
+.FullText{
+	width: 80%;
+	height: auto;
+	margin: 0 10%;
+	position: absolute;
+	top: 30%;
+	text-align: center;
+	color: #e4e4e4;
+	font-size: 30px;
+	line-height: 40px;
+}
+.Nextscenery{
+	width: 60px;
+	height: 40px;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	margin-left: -30px;
+	background-image: url(../images/xiayikuai.png);
+	background-size: 100% 100%;
+	animation: next 1s infinite;
+}
+@keyframes next{
+from {bottm:40px;opacity: 0.8;}
+to {bottom: 0;opacity: 0.2;}
+}

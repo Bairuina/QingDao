@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+}
+body{
+    width: 100%;
+    min-width: 1200px;
+}
+.header{
+    width: 100%;
+}
+.header .header_tit{
+    width: 1200px;
+    font-weight: 500;
+    font-size: 34px;
+    text-align: center;
+    color: #4dc8ec;
+    margin: 30px auto;
+}
+
+.header_school{
+    width: 100%;
+}
+.school_name{
+    /*margin-top: 100px;*/
+    height: 350px;
+    /*box-shadow: 0px -50px 50px #999;*/
+    text-align: center;
+    line-height: 150px;
+    font-size: 30px;
+    color: #FF5722;
+}
+.school_name img{
+    margin: 20px 40px;
+    width: 100px;
+    height: 100px;
+}
+.school_name .name{
+    line-height: 150px;
+    display: inline-block;
+    vertical-align: top;
+}
+.school_intro{
+    width: 1200px;
+    margin: -50px auto 0px;
+    text-align: center;
+    font-size: 17px;
+    color: #555555;
+    line-height: 25px;
+}
+.school_pho{
+    height: 500px;
+    position: relative;
+}
+.school_pho .pho{
+    width: 100%;
+    height: 500px;
+
+}
+.school_pho .pho1{
+    background: url("./../images/schoolbg1.png") no-repeat fixed;
+    background-size: 100% 100%;
+}
+.school_pho .pho2{
+    background: url("./../images/schoolbg2.jpg") no-repeat fixed;
+    background-size: 100% 100%;
+}
+.school_pho .pho3{
+    background: url("./../images/schoolbg3.jpg") no-repeat fixed;
+    background-size: 100% 100%;
+}
+.school_pho .pho4{
+    background: url("./../images/schoolbg4.jpg") no-repeat fixed;
+    background-size: 100% 100%;
+}
+.school_pho .pho5{
+    background: url("./../images/schoolbg5.jpg") no-repeat fixed;
+    background-size: 100% 100%;
+}
+.school_pho .pho6{
+    background: url("./../images/schoolbg6.jpg") no-repeat fixed;
+    background-size: 100% 100%;
+}
+.school_pho .pho7{
+    background: url("./../images/schoolbg7.jpg") no-repeat fixed;
+    background-size: 100% 100%;
+}
+.school_pho .pho8{
+    background: url("./../images/schoolbg8.jpg") no-repeat fixed;
+    background-size: 100% 100%;
+}
